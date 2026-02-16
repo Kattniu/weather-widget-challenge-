@@ -50,3 +50,19 @@ body {
 .forecast-item .val { font-size: 12px; font-weight: 700; }
 .forecast-item img { width: 25px; }
 .forecast-item .label { font-size: 11px; color: var(--text-secondary); }
+.widget-card {
+  width: 350px;
+  max-width: 90vw; 
+  height: 160px;
+  background: var(--bg-card);
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 375px) {
+  .temp-big { font-size: 48px; } 
+  .slide { padding: 15px; }    
+  .forecast-item .val { font-size: 10px; } 
+}
